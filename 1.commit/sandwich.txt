@@ -2,5 +2,6 @@ pan
 queso
 panceta
 barbacoa
+mayonesa
 medallón
 pan
