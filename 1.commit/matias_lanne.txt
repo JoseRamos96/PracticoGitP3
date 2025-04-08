@@ -1,0 +1,7 @@
+1: git init
+2: git rm --cached -r
+3: No, hasta que el nuevo archivo no sea agreado al repositorio, no es controlado por git
+4: git add
+5: git status
+6: git commit -m
+7: Confirmar para git los cambios ya guardados localmente, para posteriormente pushearlos
