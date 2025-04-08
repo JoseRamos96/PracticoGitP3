@@ -1,0 +1,75 @@
+Francisco Perez
+PREGUNTAS TEORICAS:
+¿Cómo se inicializa un repositorio local?
+git init
+
+¿Cómo hago para que un directorio deje de ser controlado por git?
+rm -rf .git
+Si agrego un archivo a un directorio que ya está siendo controlado por git, ¿está siendo controlado por git? No automáticamente. Para que el archivo sea controlado por git, debes agregarlo con el siguiente comando:
+git add <nombre_del_archivo>
+
+¿Qué comando se utiliza para agregar un archivo al repositorio local?
+git add <nombre_del_archivo>
+Para agregar todos los archivos modificados o nuevos:
+git add .
+
+¿Cómo determino que archivos fueron modificados?
+git status
+
+¿Qué comando se utiliza para hacer un commit?
+git commit -m "Tu mensaje de commit"
+
+En sus propias palabras, ¿qué es un commit? 
+Un commit es un registro que guarda los cambios realizados en el repositorio local. 
+
+EJERCICIO PRACTICO:
+Parte 3
+On branch FranciscoPerez
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   1.commit/sandwich.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.commit/Francisco_Perez.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Respuesta: Muestra el estado de los archivos los cuales han sido modificiados pero sin haberlos subido a la cola de Stage
+
+Parte 5
+Respuesta: Muestra en color Verde el archivo Sandwich.txt ya que fue subido a la cola de Stage
+
+Parte 7
+Respuesta: Desaparece de los archivos para subir "Sandwich.txt" ya que fue correctamente subido con Commit
+
+Parte 9
+commit 029769b27db104010d45020abb468e3525332429 (HEAD -> FranciscoPerez)
+Author: Francisco <franperez19092003@gmail.com>
+Date:   Tue Apr 8 20:14:02 2025 -0300
+
+    Agrego Salsa al Sandiwich
+
+ 1.commit/sandwich.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 627d61ef263c370a35a3c01311a63f08bdb9e662
+Author: Francisco <franperez19092003@gmail.com>
+Date:   Tue Apr 8 20:12:31 2025 -0300
+
+    Agrego mi sandwich.txt
+
+ 1.commit/sandwich.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+Respuesta: Aparecen todos los commit realizados, en el orden del mas reciente
+
+Parte 11
+Respuesta: El comando muestra en consola en color verde todos los cambios que fueron realizados en el ultimo commit comparando con el otro comparado
+
+Parte 13
+Respuesta: Una vez cambiado el nombre del archivo el comando status nos mostrara en rojo el nombre del nuevo txt ya que todavia no se realizo un add 
+
+Parte 15
+Respuesta: Aparece en color verde el cambio ya que de forma definitiva se realizo el borrado
