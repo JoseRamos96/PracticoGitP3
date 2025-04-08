@@ -1,4 +1,7 @@
 pan
+mostaza
 queso
+lechuga
 medallón
+pepinillo
 pan
