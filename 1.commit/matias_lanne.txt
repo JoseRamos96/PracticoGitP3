@@ -1,0 +1,50 @@
+1: git init
+2: git rm --cached -r
+3: No, hasta que el nuevo archivo no sea agreado al repositorio, no es controlado por git
+4: git add
+5: git status
+6: git commit -m
+7: Confirmar para git los cambios ya guardados localmente, para posteriormente pushearlos
+
+
+commit f0cd523b16f31f35073b9bde635cb7fef00d1b16 (HEAD -> matias-lanne)
+Author: xMatux <matu.lanne@gmail.com>
+Date:   Tue Apr 8 20:46:13 2025 -0300
+
+    Agrego mi sandwich.txt
+
+commit be76ce6b210f92ab42a714076f907e7f8f652f37
+Author: xMatux <matu.lanne@gmail.com>
+Date:   Tue Apr 8 20:31:04 2025 -0300
+
+    Agregue el txt
+
+commit f5405fc927d89b96197c465f053ec1548f4b55a3 (origin/main, origin/HEAD, practica2025, main)
+Author: Sebastian Iglesias <sebiglesias@users.noreply.github.com>
+Date:   Thu Jun 8 16:56:17 2023 -0300
+
+    Revert "Santiago Bang (#63)" (#64)
+
+    This reverts commit eb7eb5dd8e5af4efd1ada7774351f53a3a5e86f2.
+
+commit eb7eb5dd8e5af4efd1ada7774351f53a3a5e86f2
+Author: Sannnn-Sannnn <130693505+Sannnn-Sannnn@users.noreply.github.com>
+Date:   Thu Jun 8 16:55:59 2023 -0300
+
+    Santiago Bang (#63)
+
+commit 579a34f2db78787d6f499242919e873d7a447480
+Author: Sebastian Iglesias <sebiglesias@users.noreply.github.com>
+Date:   Wed Apr 19 17:27:00 2023 -0300
+
+    Agrego instrucciones para instalar claves ssh en windows con git bash.
+
+commit 786904f65d58dafd7c392efdc806cd91ba0cbb01
+Author: Sebastian Iglesias <sebastian@getcaribou.com>
+Date:   Mon Apr 17 21:58:56 2023 -0300
+
+    Initial commit - repo setup
+
+commit 140733d1b371966335eace561a02d3464af47664
+Author: Sebastian Iglesias <sebiglesias@users.noreply.github.com>
+Date:   Mon Apr 17 20:02:55 2023 -0300
